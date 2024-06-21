@@ -7,8 +7,8 @@ public class firstNoneRepeating {
         int n=arr.length;
         for(int i=0; i<n; i++){
             for(int j=i+1; j<n; j++){
-                if(arr[i]!=arr[j]) break;
-                System.out.println(arr[i]);
+                if(arr[i]==arr[j]) break;
+                System.out.println(arr[j]);
             }
         }
     }
